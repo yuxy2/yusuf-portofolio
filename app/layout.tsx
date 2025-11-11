@@ -2,6 +2,11 @@ export const metadata = {
   title: "Yusuf Mustofa – Portfolio",
   description:
     "Portfolio pengembang: React/Next.js, Node.js, Prisma, MongoDB, LiveKit, GCP.",
+  icons: {
+    icon: "/favicon.png",       // atau "/favicon.png"
+    shortcut: "/favicon.png",   // optional
+    apple: "/favicon.png",      // optional untuk iOS
+  },  
 };
 
 import "./globals.css";
