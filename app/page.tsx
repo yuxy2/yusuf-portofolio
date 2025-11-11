@@ -163,9 +163,9 @@ export default function Page() {
                 <Button variant="ghost">Website</Button>
               </a>
             </div>
-            <p className="mt-3 text-sm text-muted-foreground">
+            {/* <p className="mt-3 text-sm text-muted-foreground">
               Simpan file <code>CV_Yusuf_Mustofa.pdf</code> di folder <code>public/</code> agar tombol unduh & lihat berfungsi.
-            </p>
+            </p> */}
           </CardContent>
         </Card>
       </section>
