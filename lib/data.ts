@@ -20,37 +20,77 @@ export const SKILLS = [
 
 export const PROJECTS = [
   {
-    title: "Greenfy – Layanan Jemput Sampah",
+    title: "E-Laundry – Sistem Pemesanan Laundry Online",
     year: "2025",
     description:
-      "Aplikasi mobile + backend untuk penjadwalan pickup sampah rumah tangga dengan dashboard admin.",
-    impact: ["1.5k+ order simulasi", "Arsitektur REST modular, JWT auth"],
-    tech: ["React Native", "Express", "MongoDB", "Prisma", "Docker"],
-    links: { demo: "https://greenfy.example.com", repo: "https://github.com/username/greenfy" },
-    cover: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1400&auto=format&fit=crop",
+      "Aplikasi web untuk pemesanan laundry secara online dengan sistem pembayaran otomatis dan tracking pesanan.",
+    impact: ["Integrasi Midtrans Payment", "Dashboard Admin & Customer lengkap"],
+    tech: ["Next.js", "Express", "MongoDB", "Prisma", "TailwindCSS"],
+    links: {
+      demo: "https://laundry-ordering-app-frontend.onrender.com/",
+      repo: "https://github.com/username/e-laundry",
+    },
+    cover:
+      "/laundry.webp",
   },
   {
-    title: "Nonton‑NextGen – Live Streaming",
+    title: "UMKM Digital – Sistem Informasi Produk Lokal",
     year: "2024",
     description:
-      "Platform streaming multi‑view dengan LiveKit: grid viewer, chat realtime, dan upload VOD.",
+      "Website untuk membantu UMKM memasarkan produk secara online dengan fitur katalog, pencarian, dan analitik penjualan.",
+    impact: ["100+ produk UMKM terdaftar", "Integrasi API Google Maps & Chat WhatsApp"],
+    tech: ["React", "Node.js", "MongoDB", "Tailwind", "Vercel"],
+    links: {
+      demo: "https://umkm-digital.vercel.app/",
+      repo: "https://github.com/username/umkm-digital",
+    },
+    cover:
+      "https://images.unsplash.com/photo-1605902711622-cfb43c4437b5?auto=format&fit=crop&q=80&w=1400&h=900",
+  },
+  {
+    title: "Watu Probo – Website Wisata Alam",
+    year: "2024",
+    description:
+      "Website promosi wisata air terjun Watu Porbo dengan fitur galeri, testimoni pengunjung, dan sistem pemesanan tiket.",
+    impact: ["500+ kunjungan per bulan", "SEO teroptimasi untuk wisata lokal"],
+    tech: ["Next.js", "TailwindCSS", "Vercel"],
+    links: {
+      demo: "https://watu-probo.vercel.app/",
+      repo: "https://github.com/username/watu-porbo-porto",
+    },
+    cover:
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=1400&h=900",
+  },
+  {
+    title: "Nonton-NextGen – Live Streaming",
+    year: "2024",
+    description:
+      "Platform streaming multi-view dengan LiveKit: grid viewer, chat realtime, dan upload VOD.",
     impact: ["Join stream < 2 dtk", "Upload VOD ke MinIO"],
     tech: ["Next.js", "LiveKit", "MinIO", "Prisma", "Tailwind"],
-    links: { demo: "https://nonton.example.com", repo: "https://github.com/username/nonton-nextgen" },
-    cover: "https://images.unsplash.com/photo-1641077818099-05d12fc74201?auto=format&fit=crop&q=80&w=1400&h=900"
-,
+    links: {
+      demo: "https://watu-probo.vercel.app/",
+      repo: "https://github.com/username/nonton-nextgen",
+    },
+    cover:
+      "https://images.unsplash.com/photo-1641077818099-05d12fc74201?auto=format&fit=crop&q=80&w=1400&h=900",
   },
   {
     title: "SETerON – Sentimen Tren Berita",
     year: "2024",
     description:
       "Sistem analisis sentimen otomatis untuk monitoring tren berita online (skripsi/proyek riset).",
-    impact: ["Akurasi 86% (dataset uji)", "Dashboard metrik & chart"],
+    impact: ["Akurasi 86% (dataset uji)", "Dashboard metrik & chart interaktif"],
     tech: ["Python", "FastAPI", "React", "MongoDB"],
-    links: { demo: "https://seteron.example.com", repo: "https://github.com/username/seteron" },
-    cover: "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?q=80&w=1400&auto=format&fit=crop",
+    links: {
+      demo: "https://seteron.example.com/",
+      repo: "https://github.com/username/seteron",
+    },
+    cover:
+      "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&q=80&w=1400&h=900",
   },
 ];
+
 
 export const EXPERIENCE = [
   {
