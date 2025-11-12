@@ -5,10 +5,10 @@ export const PROFILE = {
     "Membangun aplikasi web end‑to‑end: React/Next.js, Node.js, Prisma, MongoDB, LiveKit, dan GCP.",
   location: "Yogyakarta, Indonesia",
   email: "yusaufcok@gmail.com",
-  phone: "+62 813-5818-7878",
+  phone: "+6281358187878",
   github: "https://github.com/yuxy2",
   linkedin: "https://www.linkedin.com/in/username/",
-  website: "https://yourdomain.dev",
+  website: "https://yusuf-portofolio-two.vercel.app/",
 };
 
 export const SKILLS = [

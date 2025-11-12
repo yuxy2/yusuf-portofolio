@@ -144,31 +144,52 @@ export default function Page() {
         <CertificatesGallery items={CERTS} />
       </section>
 
-      {/* CONTACT */}
-      <section id="contact" className="space-y-4">
-        <h2 className="text-2xl md:text-3xl font-bold tracking-tight">Kontak</h2>
-        <Card>
-          <CardContent className="py-6">
-            <div className="flex flex-wrap items-center gap-3">
-              <a href={`mailto:${PROFILE.email}`}>
-                <Button>Email</Button>
-              </a>
-              <a href={PROFILE.github} target="_blank" rel="noreferrer">
-                <Button variant="outline">GitHub</Button>
-              </a>
-              <a href={PROFILE.linkedin} target="_blank" rel="noreferrer">
-                <Button variant="outline">LinkedIn</Button>
-              </a>
-              <a href={PROFILE.website} target="_blank" rel="noreferrer">
-                <Button variant="ghost">Website</Button>
-              </a>
-            </div>
-            {/* <p className="mt-3 text-sm text-muted-foreground">
-              Simpan file <code>CV_Yusuf_Mustofa.pdf</code> di folder <code>public/</code> agar tombol unduh & lihat berfungsi.
-            </p> */}
-          </CardContent>
-        </Card>
-      </section>
+     {/* CONTACT */}
+<section id="contact" className="space-y-4">
+  <h2 className="text-2xl md:text-3xl font-bold tracking-tight">Kontak</h2>
+  <Card>
+    <CardContent className="py-6">
+      <div className="flex flex-wrap items-center gap-3">
+        {/* Email */}
+        <a href={`mailto:${PROFILE.email}`}>
+          <Button>Email</Button>
+        </a>
+
+        {/* WhatsApp */}
+        <a
+          href={`https://wa.me/${PROFILE.phone.replace(/[^0-9]/g, "")}`} 
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Button
+            variant="default"
+            className="bg-green-500 hover:bg-green-600 text-white flex items-center gap-2"
+          >
+            {/* Pakai ikon kalau mau (lucide-react) */}
+            {/* <MessageCircle size={18} /> */}
+            WhatsApp
+          </Button>
+        </a>
+
+        {/* GitHub */}
+        <a href={PROFILE.github} target="_blank" rel="noreferrer">
+          <Button variant="outline">GitHub</Button>
+        </a>
+
+        {/* LinkedIn */}
+        <a href={PROFILE.linkedin} target="_blank" rel="noreferrer">
+          <Button variant="outline">LinkedIn</Button>
+        </a>
+
+        {/* Website */}
+        <a href={PROFILE.website} target="_blank" rel="noreferrer">
+          <Button variant="ghost">Website</Button>
+        </a>
+      </div>
+    </CardContent>
+  </Card>
+</section>
+
     </div>
   );
 }
