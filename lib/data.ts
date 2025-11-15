@@ -28,7 +28,7 @@ export const PROJECTS = [
     tech: ["Next.js", "Express", "MongoDB", "Prisma", "TailwindCSS"],
     links: {
       demo: "https://laundry-ordering-app-frontend.onrender.com/",
-      repo: "https://github.com/username/e-laundry",
+      repo: "https://github.com/yuxy2/laundry-ordering-app-frontend",
     },
     cover:
       "/laundry.webp",
@@ -42,7 +42,7 @@ export const PROJECTS = [
     tech: ["React", "Node.js", "MongoDB", "Tailwind", "Vercel"],
     links: {
       demo: "https://umkm-digital.vercel.app/",
-      repo: "https://github.com/username/umkm-digital",
+      repo: "https://github.com/yuxy2/umkm-dashboard",
     },
     cover:
       "https://images.unsplash.com/photo-1605902711622-cfb43c4437b5?auto=format&fit=crop&q=80&w=1400&h=900",
@@ -56,7 +56,7 @@ export const PROJECTS = [
     tech: ["Next.js", "TailwindCSS", "Vercel"],
     links: {
       demo: "https://watu-probo.vercel.app/",
-      repo: "https://github.com/username/watu-porbo-porto",
+      repo: "https://github.com/yuxy2/watu-probo",
     },
     cover:
       "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=1400&h=900",
