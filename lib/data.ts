@@ -1,6 +1,6 @@
 export const PROFILE = {
   name: "Yusuf Mustofa",
-  role: "Full‑Stack Developer",
+  role: "Software Engineer",
   tagline:
     "Membangun aplikasi web end‑to‑end: React/Next.js, Node.js, Prisma, MongoDB, LiveKit, dan GCP.",
   location: "Yogyakarta, Indonesia",
